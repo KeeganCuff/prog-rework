@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "sieve_input=gravel,sieve_level=3": {
+      "model": "progrework:block/sieve_gravel_3"
+    },
+    "sieve_input=gravel,sieve_level=2": {
+      "model": "progrework:block/sieve_gravel_2"
+    },
+    "sieve_input=gravel,sieve_level=1": {
+      "model": "progrework:block/sieve_gravel_1"
+    },
+    "sieve_input=gravel,sieve_level=0": {
+      "model": "progrework:block/sieve"
+    },
+    "sieve_input=sand,sieve_level=3": {
+      "model": "progrework:block/sieve_sand_3"
+    },
+    "sieve_input=sand,sieve_level=2": {
+      "model": "progrework:block/sieve_sand_2"
+    },
+    "sieve_input=sand,sieve_level=1": {
+      "model": "progrework:block/sieve_sand_1"
+    },
+    "sieve_input=sand,sieve_level=0": {
+      "model": "progrework:block/sieve"
+    },
+    "sieve_input=empty,sieve_level=0": {
+      "model": "progrework:block/sieve"
+    },
+    "sieve_input=empty,sieve_level=1": {
+      "model": "progrework:block/sieve"
+    },
+    "sieve_input=empty,sieve_level=2": {
+      "model": "progrework:block/sieve"
+    },
+    "sieve_input=empty,sieve_level=3": {
+      "model": "progrework:block/sieve"
+    }
+  }
+}

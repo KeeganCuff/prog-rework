@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.injection.ModifyVariable;
 @Mixin(LootingEnchantLootFunction.class)
 public class LootingFormula {
     @ModifyVariable(method = "process", at = @At("STORE"))
-    private double injected(float f){
+    private float injected(float f){
         return Math.min(1f, f);
     }
 }

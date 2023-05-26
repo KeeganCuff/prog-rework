@@ -6,12 +6,10 @@ import net.keegancuff.progrework.ProgressionMod;
 import net.keegancuff.progrework.block.custom.SieveBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.block.Material;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {

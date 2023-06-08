@@ -9,5 +9,6 @@ public class ProgressionModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SIEVE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.SAND_DUST, RenderLayer.getTranslucent());
     }
 }

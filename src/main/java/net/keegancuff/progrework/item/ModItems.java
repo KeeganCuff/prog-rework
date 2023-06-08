@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item QUARTZ_NUGGET = registerItem("quartz_nugget", new Item(new FabricItemSettings()));
-    public static final Item SAND_DUST = registerItem("sand_dust", new Item(new FabricItemSettings()));
+    //public static final Item SAND_DUST = registerItem("sand_dust", new Item(new FabricItemSettings()));
 
 
 
@@ -29,6 +29,6 @@ public class ModItems {
     private static void registerGroups() {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries -> entries.addAfter(Items.FURNACE, ModBlocks.SIEVE));
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> entries.addAfter(Items.FLINT, ModItems.QUARTZ_NUGGET));
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> entries.addAfter(ModItems.QUARTZ_NUGGET, ModItems.SAND_DUST));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> entries.addAfter(ModItems.QUARTZ_NUGGET, ModBlocks.SAND_DUST));
     }
 }
